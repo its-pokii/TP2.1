@@ -19,5 +19,8 @@ public class Main {
         b.afficherComplex();
         a.PlusComplex(b);
 
+        Employe employe = new Employe("we123","moumni","walid",new DateFormat(11,3,2003),new DateFormat(22,5,2017),15000.5);
+        employe.AfficherEmploye();
+
     }
 }
